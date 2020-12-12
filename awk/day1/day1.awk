@@ -1,1 +1,1 @@
-{ map[$1]=1; if((2020 - $1) in map) { print $1 * (2020 - $1); exit }}
+{ map[$1]; if((2020 - $1) in map) { print $1 * (2020 - $1); exit }}
